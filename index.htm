@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zomgmail - Your Email Service</title>
+    <style>
+        /* Reset some default browser styles */
+        body, h1, h2, p, div, header, footer, main, section {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+            color: #fff;
+            text-align: center;
+        }
+
+        header {
+            background-color: rgba(0, 0, 0, 0.8);
+            padding: 20px;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .logo img {
+            height: 50px;
+            margin-right: 10px;
+        }
+
+        .logo h1 {
+            font-size: 2.5rem;
+            margin: 0;
+        }
+
+        .intro {
+            padding: 50px 20px;
+            background-color: rgba(0, 0, 0, 0.6);
+            border-radius: 10px;
+            margin: 20px;
+        }
+
+        footer {
+            background-color: rgba(0, 0, 0, 0.8);
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .logo {
+                flex-direction: column;
+            }
+
+            .logo img {
+                margin: 0 0 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Zomgmail Logo">
+            <h1>Zomgmail</h1>
+        </div>
+    </header>
+    <main>
+        <section class="intro">
+            <h2>Welcome to Zomgmail</h2>
+            <p>Your secure and epik email service.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Xelionix GP. All rights reserved.</p>
+    </footer>
+</body>
+</html>
